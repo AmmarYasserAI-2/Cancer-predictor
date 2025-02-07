@@ -1,0 +1,82 @@
+
+.st-emotion-cache-j5r0tf.e1f1d6gn3 {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #000d38; /* Light Gray */
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(114, 114, 114, 0.1); /* Add shadow for depth */
+}
+
+.diagnosis {
+    color: #1E293B; /* Dark Blue-Gray for better contrast */
+    padding: 0.2em 0.5em;
+    border-radius: 0.5em;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-size: 1.2em; /* Increase font size for better readability */
+    box-shadow: 0 4px 8px rgba(116, 116, 116, 0.1); /* Add shadow for depth */
+
+}
+
+.diagnosis.benign {
+    background-color: #22C55E; /* Lime Green */
+    color: #000;
+    font-weight: bold;
+    font-size: 1.5em; /* Larger font for better CTA */
+    animation: pulse 1.5s infinite; /* Subtle animation */
+    border-radius: 8px; /* Slight rounded corners */
+    box-shadow: 0 4px 8px rgba(128, 128, 128, 0.1); /* Add shadow for depth */
+}
+
+.diagnosis.benign:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Slightly larger shadow on hover */
+}
+
+.diagnosis.malicious {
+    color: #ffffff;
+    background-color: #970000;
+    font-weight: bold;
+    border-radius: 8px; /* Slight rounded corners */
+    box-shadow: 0 4px 8px rgba(105, 105, 105, 0.1); /* Add shadow for depth */
+}
+
+.diagnosis.malicious:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Slightly larger shadow on hover */
+}
+
+/* Add keyframes for pulse animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Style for sliders with tooltips */
+.slider-container {
+    position: relative;
+    margin: 1rem 0;
+}
+
+.slider {
+    width: 100%;
+}
+
+.slider-value {
+    position: absolute;
+    top: -1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 0.2em 0.5em;
+    border-radius: 0.3em;
+    font-size: 0.9em;
+    white-space: nowrap;
+}
