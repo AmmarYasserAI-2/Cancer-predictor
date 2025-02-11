@@ -31,6 +31,12 @@ A **machine learning-based web application** built using **Streamlit** to predic
 
 ---
 
+![image](https://github.com/user-attachments/assets/78851551-4ce8-40ec-902d-cb44acbcf423)
+
+![image](https://github.com/user-attachments/assets/e5518126-ff79-4afd-94de-5a45bc5a5dca)
+
+![image](https://github.com/user-attachments/assets/18f1ddd5-e6ad-491f-957c-589bf4f87256)
+
 ## 🛠️ Installation & Usage
 ### 1️⃣ Clone the Repository
 ```bash
@@ -52,7 +58,5 @@ streamlit run app/main.py
 
 ## 🧠 Model Information
 The model was trained using **machine learning algorithms** on a breast cancer dataset. The input data is **scaled** using a standard scaler before making predictions. The trained model is saved as `model.pkl` and is used in the app to make real-time predictions.
-
-## 🌟 Show Your Support
 If you found this project helpful, give it a ⭐ on GitHub and share it with others!
 
